@@ -44,7 +44,27 @@
         <ProjectItem>
           <Name>TonKho_MH_TG.partitions</Name>
           <FullPath>TonKho_MH_TG.partitions</FullPath>
+     	</ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BanHang_KH_MH_TG.cube</Name>
+      <FullPath>BanHang_KH_MH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_KH_MH_TG.partitions</Name>
+          <FullPath>BanHang_KH_MH_TG.partitions</FullPath>
         </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BanHang_MH_TG.cube</Name>
+      <FullPath>BanHang_MH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_MH_TG.partitions</Name>
+          <FullPath>BanHang_MH_TG.partitions</FullPath>
+      	</ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
@@ -55,6 +75,16 @@
           <Name>TonKho_CH_TG.partitions</Name>
           <FullPath>TonKho_CH_TG.partitions</FullPath>
         </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BanHang_MH.cube</Name>
+      <FullPath>BanHang_MH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_MH.partitions</Name>
+          <FullPath>BanHang_MH.partitions</FullPath>
+       	</ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
