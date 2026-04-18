@@ -1,0 +1,161 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a0a06062-f430-4732-a30d-0ff28235647a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>BanHang_MH</ID>
+  <Name>BanHang_MH</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e668f549-4632-4062-bc06-709a79a179c2">
+      <ID>Dim Mat Hang</ID>
+      <Name>Dim Mat Hang</Name>
+      <DimensionID>Dim Mat Hang</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ef27371a-a5a4-4e3b-bc7b-c68ffe5a7a2b">
+          <AttributeID>Mat Hang Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e35cb72-f4b4-4fb0-90a7-ef26dce144ce">
+          <AttributeID>Kich Thuoc</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8398c2aa-f4f3-4028-a9e9-ab410dd5b2e1">
+          <AttributeID>Trong Luong</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="51def603-e7d9-447a-b684-d57af54158f9">
+          <AttributeID>Gia</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d8ea5c23-49f5-45cc-8e88-25c47a04deaa">
+      <ID>Fact Ban Hang</ID>
+      <Name>Fact Ban Hang</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="162b8cbe-11ab-4026-93de-d22f82a38207">
+          <ID>So Luong</ID>
+          <Name>So Luong</Name>
+          <Source dwd:design-time-name="8b5dd32e-c16e-4104-bf20-d66d8cd6a56b">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c4422db-6a6b-4360-badc-11e589e9880d">
+              <TableID>dbo_Fact_BanHang</TableID>
+              <ColumnID>SoLuong</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e68101d2-f2da-42cd-a86f-4ecf736e1c8c">
+          <ID>Gia Ban</ID>
+          <Name>Gia Ban</Name>
+          <Source dwd:design-time-name="16a7abe0-fb83-47ef-9e1d-e8b01008cb91">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="779fe0bc-6bab-4477-8032-d9084207ef57">
+              <TableID>dbo_Fact_BanHang</TableID>
+              <ColumnID>GiaBan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8c8fe34a-55b2-4e24-9ae7-852408140735">
+          <ID>Loi Nhuan</ID>
+          <Name>Loi Nhuan</Name>
+          <Source dwd:design-time-name="795446cf-be7a-4007-a1d5-6f4e63056b5b">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b6778623-7439-4059-a434-a63a62fd4842">
+              <TableID>dbo_Fact_BanHang</TableID>
+              <ColumnID>LoiNhuan</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="3e037d14-07d2-49a8-87fb-1e7359fe7395">
+          <ID>Loi Nhuan TB</ID>
+          <Name>Loi Nhuan TB</Name>
+          <Source dwd:design-time-name="d52a80d7-b4a4-4458-9aa8-363abe954c57">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0d38d2e1-3c2b-4a4d-9cef-c15d32fd1813">
+              <TableID>dbo_Fact_BanHang</TableID>
+              <ColumnID>LoiNhuanTB</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="51cbbf19-c3ed-4432-ac8d-61dffac0e043">
+          <ID>Fact Ban Hang Count</ID>
+          <Name>Fact Ban Hang Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6a1b33e3-f363-46a6-af7c-47f4ad8d6601">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="9e0fece7-c9d4-4fbd-b8db-60c3f55d8686">
+              <TableID>dbo_Fact_BanHang</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2b6a3a46-ff64-4021-88e2-df7584161090">
+          <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f401842b-f387-492a-a655-4b619848b401">
+              <AttributeID>Mat Hang Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e21dc7e8-2596-4a2b-b4a4-024d919217c6">
+                  <DataType>WChar</DataType>
+                  <DataSize>40</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8b47604d-dd3f-4c57-8686-03fee0fe4f73">
+                    <TableID>dbo_Fact_BanHang</TableID>
+                    <ColumnID>MatHangKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="27c2acd5-b771-4c72-8fc4-334218d0d108">
+    <DataSourceViewID>Data Warehouse</DataSourceViewID>
+  </Source>
+</Cube>

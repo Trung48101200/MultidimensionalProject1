@@ -1,5 +1,5 @@
-<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6429f9bc-7e0a-4651-acd3-81f655d7ed9f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Data Warehouse</ID>
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b89a2e9e-9226-4b29-8143-9478e2577377" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>TonKho</ID>
   <Name>TonKho</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-14073" scrolltop="-2815" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="65" x="24807" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-10110" scrolltop="-5000" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="85" x="24807" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -30,9 +30,9 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_ThoiGian" left="6266" top="4870" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="3805" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_ThoiGian" left="5420" top="4707" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000dd0e0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -52,9 +52,9 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_TonKho" left="20" top="4347" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="2734" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Fact_TonKho" left="20" top="4347" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="3027" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
-              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000ae0a0000" />
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000d30b0000" />
             </control>
             <layoutobject>
               <ddsxmlobj>
@@ -81,7 +81,7 @@
               <point x="1520" y="4347" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="5273" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3846" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="5461" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -95,13 +95,11 @@
               </ddsxmlobj>
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="4" sourceattachpoint="12" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="6266" y="5672" />
-              <point x="4220" y="5672" />
-              <point x="4220" y="5714" />
-              <point x="3020" y="5714" />
+              <point x="5420" y="5860" />
+              <point x="3020" y="5860" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="6781" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3493" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1121" top="7074" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -116,10 +114,10 @@
             </layoutobject>
             <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="4" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
               <point x="1520" y="9774" />
-              <point x="1520" y="7081" />
+              <point x="1520" y="7374" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_DiaDiem" left="-5849" top="-63" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1918" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_DiaDiem" left="6390" top="109" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1918" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b00007e070000" />
             </control>
@@ -130,7 +128,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-3149" top="-53" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3469" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2720" top="119" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3970" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -143,11 +141,11 @@
                 <property name="VisibleAP" value="0" vartype="3" />
               </ddsxmlobj>
             </layoutobject>
-            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="1" sourceattachpoint="11" destattachpoint="10" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-              <point x="-2849" y="346" />
-              <point x="-1415" y="346" />
-              <point x="-1415" y="423" />
-              <point x="20" y="423" />
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="1" sourceattachpoint="10" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6390" y="518" />
+              <point x="4705" y="518" />
+              <point x="4705" y="423" />
+              <point x="3020" y="423" />
             </connector>
           </ddscontrol>
         </dds>
@@ -167,181 +165,114 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>-14073</Value>
+      <Value>-10110</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2815</Value>
+      <Value>-5000</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-5849</Value>
+      <Value>20</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-63</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
-      <Value>65</Value>
+      <Value>85</Value>
     </Annotation>
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="2759e0b5-2918-4a70-891e-9581c38b1495">
+    <Dimension dwd:design-time-name="d9e6ce3b-57b1-4020-8fb0-4d453c77d57e">
       <ID>Dim Mat Hang</ID>
       <Name>Dim Mat Hang</Name>
       <DimensionID>Dim Mat Hang</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="fd0c9075-e82b-4338-a5dc-87535a87d7cb">
+        <Attribute dwd:design-time-name="1a88fa7a-1b79-497a-951a-4e278772aff4">
           <AttributeID>Mat Hang Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="379f0965-f4ef-48c6-982f-da9c24ceb539">
+        <Attribute dwd:design-time-name="1b2085da-7147-4eac-82e3-4bceb91a6b33">
           <AttributeID>Kich Thuoc</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="15a31164-97b5-4ad8-80dc-edc8096f86eb">
+        <Attribute dwd:design-time-name="2c42a427-e6b6-486b-b52d-6ecf141d3c3d">
           <AttributeID>Trong Luong</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a9a67552-67b2-4a0d-a6bf-ba332034e15b">
+        <Attribute dwd:design-time-name="987399e7-9dc0-497a-864f-f64eec805168">
           <AttributeID>Gia</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="317553d0-6a08-4e64-86b8-fe7ce24aa3df">
+    <Dimension dwd:design-time-name="267db25f-3d30-430e-95d8-edf7c224d26a">
       <ID>Dim Thoi Gian</ID>
       <Name>Dim Thoi Gian</Name>
       <DimensionID>Dim Thoi Gian</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="7b7c25ca-227e-4841-b873-861a119477cf">
+        <Attribute dwd:design-time-name="494791b9-db66-4206-9613-644a33568f36">
           <AttributeID>Thoi Gian Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ead4edcb-cc5d-4fd8-9066-fa38786ecae4">
+        <Attribute dwd:design-time-name="925b41e2-84bf-4826-9c45-fd2418ecb09a">
           <AttributeID>Quy</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c8de2835-965a-4d1e-bd3d-1dbbb407c4fe">
+        <Attribute dwd:design-time-name="764cf964-5e86-41db-9a2c-319983747b46">
           <AttributeID>Thang</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4f45a0f4-455b-44c1-aa0c-2efed541262b">
+        <Attribute dwd:design-time-name="4da9e41c-0e02-446f-969b-cd3fcc96dec4">
           <AttributeID>Nam</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7c7064c0-39ae-4701-8aea-a25c49262873">
+          <AttributeID>Thoi Gian Dim Thoi Gian Calculations</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="18d093b9-0d49-4407-a30b-04687b8a653a">
+        <Hierarchy dwd:design-time-name="ed7805ff-9f06-43ae-b573-096ed7c72c00">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="38e7645a-7f4e-49e1-b208-bf9ffdd13ade">
+    <Dimension dwd:design-time-name="ef141b6c-6386-4730-8d8f-2f4fd27638f0">
       <ID>Dim Cua Hang</ID>
       <Name>Dim Cua Hang</Name>
       <DimensionID>Dim Cua Hang</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="ad57bec5-bb08-4ceb-91b6-e046c39e076e">
+        <Attribute dwd:design-time-name="c3286b56-8021-409a-8b86-5c3277a51d63">
           <AttributeID>Cua Hang Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eeab7530-9e90-4e12-b82d-9a3f958ecee9">
+        <Attribute dwd:design-time-name="8a114164-d77c-42a0-a6f4-d54b6a3f87c2">
           <AttributeID>So Dien Thoai</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b088ef3e-6ae9-4527-a160-6bf7f3e53e77">
+        <Attribute dwd:design-time-name="13a56643-1296-4814-8500-dce0ff3baa66">
           <AttributeID>Dia Diem Key</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="19cd9277-eb0d-4df4-9817-14707340ddbf">
+    <Dimension dwd:design-time-name="e4af86d2-e18b-4ccc-814a-18d6c2f1f7f2">
       <ID>Dim Dia Diem</ID>
       <Name>Dim Dia Diem</Name>
       <DimensionID>Dim Dia Diem</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="1fe8f1ce-ade1-469d-9778-79a3dcc8b0d5">
+        <Attribute dwd:design-time-name="892ea07f-4975-400a-99a5-c88240019897">
           <AttributeID>Dia Diem Key</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1502ae7f-2b36-4856-9133-89f0d1544dd6">
+        <Attribute dwd:design-time-name="06a8e541-acb4-41bc-b1ac-c82c6668b286">
           <AttributeID>Thanh Pho</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="7dbd1e58-8901-4645-b6a9-66f745daf532">
+        <Attribute dwd:design-time-name="17dd5af7-4788-4505-907b-40903db3863a">
           <AttributeID>Bang</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="86ccd3f4-7e26-43af-a7a8-116c314dc5e1">
+        <Hierarchy dwd:design-time-name="e2528b77-3675-47b2-84e2-e23dbeac464f">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
-  <Perspectives>
-    <Perspective dwd:design-time-name="ead6febd-b1d5-48ec-85dd-5f9265f0e4f8">
-      <ID>Perspective</ID>
-      <Name>Task 1</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Dimensions>
-        <Dimension dwd:design-time-name="6ed34c4c-e324-44d4-a33d-8e63e4d08f46">
-          <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="9d876988-6bba-43b5-a2f2-641af0c365af">
-              <AttributeID>Mat Hang Key</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="5bcbc769-dfab-4db3-8b3a-d5b768f6932f">
-              <AttributeID>Kich Thuoc</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="ccf97390-3108-433d-9eae-6bca7bf6baf7">
-              <AttributeID>Trong Luong</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="61ea0e28-ded5-4150-9da8-41a62fc1df9e">
-              <AttributeID>Gia</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension dwd:design-time-name="db66e762-3d8c-4e99-bf88-0799cc489ffd">
-          <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="c3deb81e-c475-409a-ab46-5c4e72a88416">
-              <AttributeID>So Dien Thoai</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="cffe865b-23f4-4454-a131-d9e8251ecd50">
-              <AttributeID>Cua Hang Key</AttributeID>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension dwd:design-time-name="8509b7bb-e79e-4837-bcff-2a8746a535e0">
-          <CubeDimensionID>Dim Dia Diem</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="4a3857bd-3bea-45b2-9c04-0f6ddb0fac15">
-              <AttributeID>Thanh Pho</AttributeID>
-            </Attribute>
-            <Attribute dwd:design-time-name="b22d6e85-405b-44a5-8140-906e2dc3671a">
-              <AttributeID>Bang</AttributeID>
-            </Attribute>
-          </Attributes>
-          <Hierarchies>
-            <Hierarchy dwd:design-time-name="a751ab95-feee-47a0-9bdc-727fab41c716">
-              <HierarchyID>Hierarchy</HierarchyID>
-            </Hierarchy>
-          </Hierarchies>
-        </Dimension>
-      </Dimensions>
-      <MeasureGroups>
-        <MeasureGroup dwd:design-time-name="c1e433dd-4da6-4343-a74b-5c008980977c">
-          <MeasureGroupID>Fact Ton Kho</MeasureGroupID>
-          <Measures>
-            <Measure dwd:design-time-name="6e2b505b-fbde-4f29-8544-f584f1d6ef9f">
-              <MeasureID>So Luong Ton</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="083ae594-feb8-4405-9c13-dc23fdd955cd">
-              <MeasureID>Trong Luong</MeasureID>
-            </Measure>
-            <Measure dwd:design-time-name="6a021262-f9ae-4a21-92cd-b1d261134ad8">
-              <MeasureID>Gia Tri</MeasureID>
-            </Measure>
-          </Measures>
-        </MeasureGroup>
-      </MeasureGroups>
-    </Perspective>
-  </Perspectives>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="5c7eedcd-8649-4ab3-b3f6-549fa1204317">
+    <MeasureGroup dwd:design-time-name="3b72658d-9393-4bb9-bf34-e43b0ab1dced">
       <ID>Fact Ton Kho</ID>
       <Name>Fact Ton Kho</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -349,74 +280,65 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="a6549a44-0bbf-4d0b-9e2d-0efdd1e03556">
+        <Measure dwd:design-time-name="cafe19a6-dc66-4877-bccc-e298acd0d1ca">
           <ID>So Luong Ton</ID>
           <Name>So Luong Ton</Name>
-          <AggregateFunction>LastNonEmpty</AggregateFunction>
-          <Source dwd:design-time-name="1b021e2b-2274-4f29-9f4b-5614ad112bdd">
+          <Source dwd:design-time-name="c0a3a045-af89-45b3-a8fe-fdf2b09102fd">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="b3fe7a3b-5626-4a7a-bbad-a01f3901bea0">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6239ed12-29f4-40eb-91fa-962b4b4cbddc">
               <TableID>dbo_Fact_TonKho</TableID>
               <ColumnID>SoLuongTon</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="fbafe098-0ca7-4306-a2f3-b2889a57fbdd">
+        <Measure dwd:design-time-name="3ba58af5-7a5c-4d26-bfd1-64bc0184e4e3">
           <ID>Trong Luong</ID>
           <Name>Trong Luong</Name>
-          <AggregateFunction>LastNonEmpty</AggregateFunction>
-          <Source dwd:design-time-name="f85e3c4e-c8d5-43c8-904f-47e637c18808">
+          <Source dwd:design-time-name="15557011-a80d-4bc9-8fa2-f0a4605cf511">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e89a596c-8f44-4320-95fe-2a06c526ed3b">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="939d54d2-c624-4ac0-bdf0-73f6352471f0">
               <TableID>dbo_Fact_TonKho</TableID>
               <ColumnID>TrongLuong</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="cff6fbdf-f5f3-43de-b8ee-a0ff88cd73ad">
+        <Measure dwd:design-time-name="f4a6b541-a957-432e-aa3d-f395f0a858eb">
           <ID>Gia Tri</ID>
           <Name>Gia Tri</Name>
-          <AggregateFunction>LastNonEmpty</AggregateFunction>
-          <Source dwd:design-time-name="bbcdd29f-74cf-41e5-b336-eddb769cbb0f">
+          <Source dwd:design-time-name="a8cf41d7-42f6-4392-8fb9-323f276ace12">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="595a8609-6bdb-4458-ad52-b3e4c6fe1c88">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="678426bd-2dd9-4472-8b3a-ef5a64b54852">
               <TableID>dbo_Fact_TonKho</TableID>
               <ColumnID>GiaTri</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="cb193ba9-55b0-4e5d-9e50-15c5150560b5">
+        <Measure dwd:design-time-name="0e5d0404-3fff-4b3f-8d42-af4e5fb65a07">
           <ID>Fact Ton Kho Count</ID>
           <Name>Fact Ton Kho Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="a69ce656-4b2c-47b9-be3f-c1d8685d0f69">
+          <Source dwd:design-time-name="0ce8149a-e365-4174-b3e8-7a6628db7397">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="19402c3e-2419-4ac8-8bcb-01291af501a7">
+            <Source xsi:type="RowBinding" dwd:design-time-name="093bea3e-b696-4ee0-9083-e94a1ed1b78e">
               <TableID>dbo_Fact_TonKho</TableID>
             </Source>
           </Source>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
-      <ErrorConfiguration dwd:design-time-name="8fda031b-5b4b-4894-8864-e82ad0e3db89">
-        <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
-        <KeyNotFound>IgnoreError</KeyNotFound>
-        <KeyDuplicate>ReportAndContinue</KeyDuplicate>
-        <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
-      </ErrorConfiguration>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="77dc2a91-d394-48fa-8186-0e4af43dc826">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b8c966fd-2847-411c-bfd5-42b907c1cb63">
           <CubeDimensionID>Dim Mat Hang</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="704485e8-e749-4b6f-aff4-dec4be096948">
+            <Attribute dwd:design-time-name="1764102e-ca21-419e-a0a6-49b8a19c44eb">
               <AttributeID>Mat Hang Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="53d82cbd-4542-45f1-87d0-f4f7939e724c">
+                <KeyColumn dwd:design-time-name="5f359792-eea5-4a95-92a2-50796ff8bef0">
                   <DataType>WChar</DataType>
                   <DataSize>40</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b5f38aa7-142e-4bd4-af16-7cde2c5c3e47">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="70662204-ce80-4ee3-899d-369d106d6c82">
                     <TableID>dbo_Fact_TonKho</TableID>
                     <ColumnID>MatHangKey</ColumnID>
                   </Source>
@@ -426,15 +348,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5196efd1-7d68-40c9-a17d-2bbfb95663cc">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="46afef18-dd1c-4ca0-9428-af4d8bebd230">
           <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="68d47a84-8a8f-43b1-a072-278a104bfc9c">
+            <Attribute dwd:design-time-name="4e734670-8c18-4716-b5c1-482ba44d478a">
               <AttributeID>Thoi Gian Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="abbcdf1b-99d6-4cb6-882c-b0613c3c01a7">
+                <KeyColumn dwd:design-time-name="f871f42b-0a08-456a-98cd-a63a8b8ca51c">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dd458b59-1423-4810-9c32-75038be43b31">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e943615-8102-4cc3-b406-cf5642b2f055">
                     <TableID>dbo_Fact_TonKho</TableID>
                     <ColumnID>ThoiGianKey</ColumnID>
                   </Source>
@@ -444,16 +366,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="755adb90-b5e9-4813-8e9b-fdba627dfac8">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="47368255-1d56-46d6-85ec-8d576a3d35e9">
           <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="96d9b9e2-f6a1-4f6b-a21b-baf205f1283e">
+            <Attribute dwd:design-time-name="787f0985-1347-44bb-ac31-324591f35f2a">
               <AttributeID>Cua Hang Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="f35a31b7-4bfc-44d5-9bbb-79a1a6ea8459">
+                <KeyColumn dwd:design-time-name="a427988f-6b5b-4e51-b530-c8d3e7fc3412">
                   <DataType>WChar</DataType>
                   <DataSize>40</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e6125cde-01ae-4b5d-acbf-305ff69aee78">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bc07c193-21c5-4104-b4a2-f9801bae01ba">
                     <TableID>dbo_Fact_TonKho</TableID>
                     <ColumnID>CuaHangKey</ColumnID>
                   </Source>
@@ -463,10 +385,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="9071d8d3-e057-4f9c-b228-eb30e0bcad93">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c342493a-4b6f-4ac0-b29f-a8bc7ecab1bb">
           <CubeDimensionID>Dim Dia Diem</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="6161fbcf-4c14-4980-8ef4-58183d4fbb96">
+            <Attribute dwd:design-time-name="2c6b0747-2567-4f90-a5b6-ee6099a78e26">
               <AttributeID>Dia Diem Key</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -477,28 +399,9 @@
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
       </Dimensions>
-      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="66ffafa1-135c-4cda-b10d-cbf1fdf110e2">
+  <Source dwd:design-time-name="46668493-bce5-4a18-9362-9377232955ec">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
-  <MdxScripts>
-    <MdxScript dwd:design-time-name="e1e00294-0a2a-44a1-9f05-2ab87186670e">
-      <ID>MdxScript</ID>
-      <Name>MdxScript</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <Commands>
-        <Command>
-          <Text>/*
-The CALCULATE command controls the aggregation of leaf cells in the cube.
-If deleted or modified, the data within the cube will be affected.
-This command should only be edited if you intend on manually specifying how the cube will be aggregated.
-*/
-CALCULATE; </Text>
-        </Command>
-      </Commands>
-    </MdxScript>
-  </MdxScripts>
 </Cube>

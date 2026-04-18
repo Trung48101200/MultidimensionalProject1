@@ -18,16 +18,6 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>TonKho.cube</Name>
-      <FullPath>TonKho.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>TonKho.partitions</Name>
-          <FullPath>TonKho.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>BanHang.cube</Name>
       <FullPath>BanHang.cube</FullPath>
       <Dependencies>
@@ -48,12 +38,42 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
+      <Name>BanHang_KH_MH_TG.cube</Name>
+      <FullPath>BanHang_KH_MH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_KH_MH_TG.partitions</Name>
+          <FullPath>BanHang_KH_MH_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BanHang_MH_TG.cube</Name>
+      <FullPath>BanHang_MH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_MH_TG.partitions</Name>
+          <FullPath>BanHang_MH_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
       <Name>TonKho_CH_TG.cube</Name>
       <FullPath>TonKho_CH_TG.cube</FullPath>
       <Dependencies>
         <ProjectItem>
           <Name>TonKho_CH_TG.partitions</Name>
           <FullPath>TonKho_CH_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>BanHang_MH.cube</Name>
+      <FullPath>BanHang_MH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>BanHang_MH.partitions</Name>
+          <FullPath>BanHang_MH.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -104,6 +124,16 @@
         <ProjectItem>
           <Name>HanhVi_KH.partitions</Name>
           <FullPath>HanhVi_KH.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho.cube</Name>
+      <FullPath>TonKho.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho.partitions</Name>
+          <FullPath>TonKho.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
