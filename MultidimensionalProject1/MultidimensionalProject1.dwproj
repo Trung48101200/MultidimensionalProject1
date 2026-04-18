@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Data Warehouse 1.cube</Name>
-      <FullPath>Data Warehouse 1.cube</FullPath>
+      <Name>HanhVi.cube</Name>
+      <FullPath>HanhVi.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Data Warehouse 1.partitions</Name>
-          <FullPath>Data Warehouse 1.partitions</FullPath>
+          <Name>HanhVi.partitions</Name>
+          <FullPath>HanhVi.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -34,6 +34,76 @@
         <ProjectItem>
           <Name>BanHang.partitions</Name>
           <FullPath>BanHang.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho_MH_TG.cube</Name>
+      <FullPath>TonKho_MH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho_MH_TG.partitions</Name>
+          <FullPath>TonKho_MH_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho_CH_TG.cube</Name>
+      <FullPath>TonKho_CH_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho_CH_TG.partitions</Name>
+          <FullPath>TonKho_CH_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho_CH_MH.cube</Name>
+      <FullPath>TonKho_CH_MH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho_CH_MH.partitions</Name>
+          <FullPath>TonKho_CH_MH.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho_MH.cube</Name>
+      <FullPath>TonKho_MH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho_MH.partitions</Name>
+          <FullPath>TonKho_MH.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TonKho_CH.cube</Name>
+      <FullPath>TonKho_CH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>TonKho_CH.partitions</Name>
+          <FullPath>TonKho_CH.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>HanhVi_TG.cube</Name>
+      <FullPath>HanhVi_TG.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>HanhVi_TG.partitions</Name>
+          <FullPath>HanhVi_TG.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>HanhVi_KH.cube</Name>
+      <FullPath>HanhVi_KH.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>HanhVi_KH.partitions</Name>
+          <FullPath>HanhVi_KH.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
