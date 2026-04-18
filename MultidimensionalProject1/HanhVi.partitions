@@ -1,0 +1,32 @@
+<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c2dcbb6c-3b84-47fd-9d87-51f672530b47" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Data Warehouse 1</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Hanh Vi</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="3c12531e-45d4-4aa9-b87e-898b2a55fcdb">
+          <ID>Fact Hanh Vi</ID>
+          <Name>Fact Hanh Vi</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="cc15053d-e4c0-41bb-a6a6-f69b2490d2c7">
+            <DataSourceViewID>Data Warehouse</DataSourceViewID>
+            <TableID>dbo_Fact_HanhVi</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ErrorConfiguration dwd:design-time-name="8a5538e3-0d65-4d7a-b5e1-5bcbf49eeffb">
+            <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
+            <KeyNotFound>IgnoreError</KeyNotFound>
+            <KeyDuplicate>ReportAndContinue</KeyDuplicate>
+            <NullKeyConvertedToUnknown>IgnoreError</NullKeyConvertedToUnknown>
+            <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
+          </ErrorConfiguration>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

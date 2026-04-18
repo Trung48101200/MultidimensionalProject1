@@ -1,4 +1,4 @@
-<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e96b1569-5a5f-4b52-9a6c-134799d55621" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2d6f0f6e-9197-4769-9628-9761ea952854" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Khach Hang</ID>
   <Name>Dim Khach Hang</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -6,6 +6,32 @@
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2859" scrolltop="-4202" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9144" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dim_Khach_Hang" left="-361" top="-2307" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3387" height="2667" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d00006b0a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dim_Khach_Hang" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
@@ -21,19 +47,19 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
-      <Value>0</Value>
+      <Value>-2859</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>0</Value>
+      <Value>-4202</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>0</Value>
+      <Value>-361</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>0</Value>
+      <Value>-2307</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -42,31 +68,111 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e26b955d-3d3a-4b8d-99bd-4bc522b306ab">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="535c83aa-c343-406b-8bda-c873e2db54cf">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="c3c7c906-7895-4062-8df4-a4a097739d01">
+  <ErrorConfiguration dwd:design-time-name="a6648ba7-2449-43a6-8dce-9423a02dfd57">
     <KeyNotFound>IgnoreError</KeyNotFound>
-    <KeyDuplicate>IgnoreError</KeyDuplicate>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="5d9d3d16-a324-4440-9057-eb13379b7b9c">
+    <Attribute dwd:design-time-name="3f6d7608-a26a-412b-87a3-aa6cbd1fd478">
       <ID>Khach Hang Key</ID>
       <Name>Khach Hang Key</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="dab14942-4401-45f3-a9b2-fcc543f010ac">
+        <KeyColumn dwd:design-time-name="f1cc70f5-9ae9-4db6-97ce-aa63ae0e2793">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b464e695-2920-4333-ba65-b00ad2a58f27">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2913fac4-2ccb-42fe-81f4-ffbe578c56a5">
             <TableID>dbo_Dim_Khach_Hang</TableID>
             <ColumnID>KhachHangKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="1e0b29b0-8cc5-49d0-817f-57d469097ef1">
+          <AttributeID>Ten KH</AttributeID>
+          <Name>Ten KH</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="53034145-1a9c-4b76-883d-370187794470">
+          <AttributeID>Dia Diem</AttributeID>
+          <Name>Dia Diem</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="393fefa2-c3d2-4d5c-8cd3-8b44f8732c23">
+          <AttributeID>Ngay Dat Dau Tien</AttributeID>
+          <Name>Ngay Dat Dau Tien</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="370676ad-8b99-4876-9b3a-680937472251">
+          <AttributeID>Loai Khach Hang</AttributeID>
+          <Name>Loai Khach Hang</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b0fb463e-95ac-4e48-9705-2c32d02cbdfc">
+      <ID>Ten KH</ID>
+      <Name>Ten KH</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="05c90dfd-2531-48f7-a753-a9ea60b942f9">
+          <DataType>WChar</DataType>
+          <DataSize>100</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a612213-1ed9-42c3-8506-c82d46c2dd3b">
+            <TableID>dbo_Dim_Khach_Hang</TableID>
+            <ColumnID>TenKH</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="30141ac7-6aba-42c6-965c-6d6da14b9454">
+      <ID>Dia Diem</ID>
+      <Name>Dia Diem</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3083ba10-071a-4b4a-9ede-4c837d5a3f7a">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f7e751fd-66ae-4cee-b8c5-8e3f09e083f2">
+            <TableID>dbo_Dim_Khach_Hang</TableID>
+            <ColumnID>DiaDiem</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8586512a-c2fc-4e36-8bd9-a9b2c800488c">
+      <ID>Ngay Dat Dau Tien</ID>
+      <Name>Ngay Dat Dau Tien</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8dbd5634-a59c-4326-b43b-94abc239fbb7">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4486ed4e-4110-4b5d-9fc7-7567865fcde6">
+            <TableID>dbo_Dim_Khach_Hang</TableID>
+            <ColumnID>NgayDatDauTien</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="71219142-b637-4675-9981-b5c1873dd28b">
+      <ID>Loai Khach Hang</ID>
+      <Name>Loai Khach Hang</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="72186e9e-eb3c-4037-9a9f-6187e4a06c65">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74f2f3fe-890a-4a7a-bb38-680fefeb53af">
+            <TableID>dbo_Dim_Khach_Hang</TableID>
+            <ColumnID>LoaiKhachHang</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
