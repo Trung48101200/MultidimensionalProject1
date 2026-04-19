@@ -44,7 +44,7 @@
         <ProjectItem>
           <Name>TonKho_MH_TG.partitions</Name>
           <FullPath>TonKho_MH_TG.partitions</FullPath>
-     	</ProjectItem>
+        </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
@@ -64,7 +64,7 @@
         <ProjectItem>
           <Name>BanHang_MH_TG.partitions</Name>
           <FullPath>BanHang_MH_TG.partitions</FullPath>
-      	</ProjectItem>
+        </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
@@ -84,7 +84,7 @@
         <ProjectItem>
           <Name>BanHang_MH.partitions</Name>
           <FullPath>BanHang_MH.partitions</FullPath>
-       	</ProjectItem>
+        </ProjectItem>
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
