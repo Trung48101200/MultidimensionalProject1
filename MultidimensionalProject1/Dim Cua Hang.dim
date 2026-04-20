@@ -1,4 +1,4 @@
-<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8472d8d5-655e-4df4-9dbc-fdfe06a4a05b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="7a24fb4c-c648-4e0b-8f81-aacbcfaa0d16" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Cua Hang</ID>
   <Name>Dim Cua Hang</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -115,44 +115,44 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="942c12ee-56a3-4337-b683-d3a51fb53362">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f1753dc7-5f20-4104-af05-2676c58dbe39">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="e05065c9-c73a-4f2c-9041-d2f7ff8b3e30">
+  <ErrorConfiguration dwd:design-time-name="07cae059-f5d0-490d-a9df-bc72b8e0bf58">
     <KeyNotFound>IgnoreError</KeyNotFound>
-    <KeyDuplicate>IgnoreError</KeyDuplicate>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="131cf82b-8528-4d63-99da-25b5c374ebcf">
+    <Attribute dwd:design-time-name="4bcf512b-6512-404a-9a6c-481d9e3ca29e">
       <ID>Cua Hang Key</ID>
       <Name>Cua Hang Key</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>3095</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="830ccadf-381a-4ecc-b827-cf3c30f1fa60">
+        <KeyColumn dwd:design-time-name="26bd1b57-9bb3-4ba7-b6d6-e5955c4b5607">
           <DataType>WChar</DataType>
           <DataSize>40</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="348c982f-550e-419b-a704-c4377ab72f42">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bfa282df-8d62-4966-93c7-eae509175357">
             <TableID>dbo_Dim_CuaHang</TableID>
             <ColumnID>CuaHangKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="d63219c0-10ca-489d-88aa-cd6404319bda">
+      <NameColumn dwd:design-time-name="6743d5f9-f4ed-478e-9b04-b6eb9778f214">
         <DataType>WChar</DataType>
         <DataSize>40</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="87f3a891-3572-4c66-b1e4-b9bae8f276f9">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="090a307d-c113-4a11-b8d8-ba692ea6f32c">
           <TableID>dbo_Dim_CuaHang</TableID>
           <ColumnID>CuaHangKey</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="4d5fc936-54de-4fb1-af72-a1af2beceb62">
+        <AttributeRelationship dwd:design-time-name="fbd7701d-f6cd-466c-8967-1442d2ff6226">
           <AttributeID>So Dien Thoai</AttributeID>
           <Name>So Dien Thoai</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bd5cdcd8-3c82-4550-88a5-700f15c54d5a">
+        <AttributeRelationship dwd:design-time-name="ccd56a9c-1bdd-4fa4-9322-71f47232719d">
           <AttributeID>Dia Diem Key</AttributeID>
           <Name>Dia Diem Key</Name>
         </AttributeRelationship>
@@ -160,14 +160,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="552c10ba-7dec-42b4-b157-4ff4a4708efb">
+    <Attribute dwd:design-time-name="183b7fbf-5429-4edb-bc5f-e466a5dd77c1">
       <ID>So Dien Thoai</ID>
       <Name>So Dien Thoai</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="37ee618f-aafa-4a4b-b82b-158dd34ade10">
+        <KeyColumn dwd:design-time-name="c8a8f943-19c5-44a4-94ea-1c8cdc6688d1">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2d800726-fb0e-4dd0-9351-ffe26d72daa6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="30a783ac-7275-463d-bb93-0b7ec2a24dda">
             <TableID>dbo_Dim_CuaHang</TableID>
             <ColumnID>SoDienThoai</ColumnID>
           </Source>
@@ -176,14 +176,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0aa96266-f6a2-48a0-a377-79496dd722c5">
+    <Attribute dwd:design-time-name="3d553b1b-b6d9-4a26-bf2c-8f0545ded9ee">
       <ID>Dia Diem Key</ID>
       <Name>Dia Diem Key</Name>
+      <EstimatedCount>636</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8e263b30-75ee-46ce-b073-6009f78963eb">
+        <KeyColumn dwd:design-time-name="e5e02e7f-d5fb-4a43-942f-17ce54a0bf84">
           <DataType>WChar</DataType>
           <DataSize>20</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1186a81e-e6ca-4301-8a74-fc26c2cdde4c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8219899a-06e7-43cb-b21a-85d9b5cacc8f">
             <TableID>dbo_Dim_CuaHang</TableID>
             <ColumnID>DiaDiemKey</ColumnID>
           </Source>

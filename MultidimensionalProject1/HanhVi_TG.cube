@@ -1,4 +1,4 @@
-<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="455457d9-c9c4-4ef8-8f89-3ff58d114e33" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="69ee212d-7cc0-4f7e-b107-340abc742306" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>HanhVi_TG</ID>
   <Name>HanhVi_TG</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -98,33 +98,37 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="8d62c412-5800-4ede-b568-848aa0d04357">
+    <Dimension dwd:design-time-name="6bde95aa-ce9d-4a88-94bf-bde65f3401b4">
       <ID>Dim Thoi Gian</ID>
       <Name>Dim Thoi Gian</Name>
       <DimensionID>Dim Thoi Gian</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="46dd4f9f-ed3b-449d-a95a-d9de25ca108f">
+        <Attribute dwd:design-time-name="e5265829-82bf-4d4a-8521-55507e48f9dd">
           <AttributeID>Thoi Gian Key</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="c90f256a-a5fe-4bd0-94f8-e1c069b82700">
+        <Attribute dwd:design-time-name="e31c6fde-5f0e-4226-86d2-39b6f18a7c5a">
           <AttributeID>Quy</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="fe47be9d-0d51-4dda-a75f-498a6f4712d6">
+        <Attribute dwd:design-time-name="8725c8d3-a155-45a2-befb-f0a335b1bd34">
           <AttributeID>Thang</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="c277cbc4-dc59-48ba-bb4b-716318e04075">
+        <Attribute dwd:design-time-name="73128f36-dc37-41e0-b711-dee4f72489de">
           <AttributeID>Nam</AttributeID>
+          <AggregationUsage>Full</AggregationUsage>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="b663ba42-a2f3-4501-94c6-70b95fff01fa">
+        <Hierarchy dwd:design-time-name="b7e90449-fbcf-4df5-8170-3ea6ecb6657a">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="d8986ddf-c994-459b-9f8b-d9d12c4253b8">
+    <MeasureGroup dwd:design-time-name="dfac69f5-ee26-4284-ba03-0c7f31bf2ac0">
       <ID>Fact Hanh Vi</ID>
       <Name>Fact Hanh Vi</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -132,54 +136,55 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="958839e8-606b-4e95-babc-526fffec87bc">
+        <Measure dwd:design-time-name="d6738c0a-8f09-4942-ae98-b7bcbf2e93e1">
           <ID>So Mat Hang</ID>
           <Name>So Mat Hang</Name>
-          <Source dwd:design-time-name="cd425932-1b54-4e0b-b2ae-670287e580e4">
+          <Source dwd:design-time-name="50368c62-86b9-40b7-a759-3ae4d078893d">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="07fc626f-10fc-48ac-bf8d-02056e2cad00">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9702d411-1777-4318-992e-ce8178a07f90">
               <TableID>dbo_Fact_HanhVi</TableID>
               <ColumnID>SoMatHang</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ac11fe4c-dc42-4d4b-97cd-3083eb3e8117">
+        <Measure dwd:design-time-name="4ef7b783-b286-4414-b2b5-7827babb3dac">
           <ID>Tong Thu</ID>
           <Name>Tong Thu</Name>
-          <Source dwd:design-time-name="8adeee6d-6e7b-48a9-b968-1faeb56c08ad">
+          <Source dwd:design-time-name="f439411e-40e9-45eb-933f-c1484f2d8dac">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="63249185-ca18-4e03-82ea-2b708b2017ce">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d267a06d-1899-4368-bb64-f86b4bdf73c3">
               <TableID>dbo_Fact_HanhVi</TableID>
               <ColumnID>TongThu</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="ae5db308-7669-4c1f-abee-921297cb2b44">
+        <Measure dwd:design-time-name="7ef4858b-e357-4799-b454-aa8b73ddf629">
           <ID>Gia TB</ID>
           <Name>Gia TB</Name>
-          <Source dwd:design-time-name="8dbe49fb-d182-45a2-9e35-ceb743616e21">
+          <Source dwd:design-time-name="e2fa049e-cb37-4b4b-bc8d-0c5a5157ab7f">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="584d62eb-b004-444f-9c6b-b60264823e69">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a64e6767-d2bc-4dbd-9387-fd7f96ef39d1">
               <TableID>dbo_Fact_HanhVi</TableID>
               <ColumnID>GiaTB</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="450d9379-1d55-486b-b902-0f6e2d350c50">
+        <Measure dwd:design-time-name="d686ee3a-52f1-429e-8479-14f2fb99e72e">
           <ID>Fact Hanh Vi Count</ID>
           <Name>Fact Hanh Vi Count</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="f1b4cad7-f992-4bb6-80b3-6380e04ca648">
+          <Source dwd:design-time-name="6b8487e1-4f33-4e9d-8470-5ee42b3ac58d">
             <DataType>Integer</DataType>
             <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="e22eba5d-1c59-4d3b-8065-18c159d402ef">
+            <Source xsi:type="RowBinding" dwd:design-time-name="aba4dd7d-2be4-4df7-b0c9-d88a83db3bed">
               <TableID>dbo_Fact_HanhVi</TableID>
             </Source>
           </Source>
         </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
-      <ErrorConfiguration dwd:design-time-name="1f0163fa-53e3-43ac-b5ed-b9a4e58fa522">
+      <EstimatedRows>98666</EstimatedRows>
+      <ErrorConfiguration dwd:design-time-name="4cc57830-99fb-4b65-927d-f5869bfd184b">
         <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
         <KeyNotFound>IgnoreError</KeyNotFound>
         <KeyDuplicate>ReportAndContinue</KeyDuplicate>
@@ -187,15 +192,15 @@
       </ErrorConfiguration>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7148ed4e-25ce-48c2-84f4-0dacefb51930">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0a6a4d27-a487-4231-82df-5eae2d75a560">
           <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="0f2036ea-bf79-458a-ba1e-1b741769d681">
+            <Attribute dwd:design-time-name="b59e13db-653c-495b-b9bf-dd673e3be957">
               <AttributeID>Thoi Gian Key</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="2931e38e-2fb5-4ee5-bf64-dad595ea0ac6">
+                <KeyColumn dwd:design-time-name="4d12d842-ad47-4188-b2df-a662054f8b75">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="56b47123-69dd-44fc-8b92-7a250fc94045">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="160b74f4-eae3-4929-8fcb-b0ad3a26ce1d">
                     <TableID>dbo_Fact_HanhVi</TableID>
                     <ColumnID>ThoiGianKey</ColumnID>
                   </Source>
@@ -207,9 +212,10 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="fb3b966f-d7a2-434f-a1a5-603af2f3bd53">
+  <Source dwd:design-time-name="d0075b6b-a47d-4bf8-900f-78b6a3610c39">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
 </Cube>

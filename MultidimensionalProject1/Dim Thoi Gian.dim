@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="84e93750-cec5-46f3-935c-db27393c5dbd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4b360f1e-277c-4476-9cda-e5c20ce1c5e1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dim Thoi Gian</ID>
   <Name>Dim Thoi Gian</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -101,31 +101,32 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="5d82ec79-f951-4202-9b65-3ef4e93e74e7">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8839836c-aafb-451b-b568-7eff294d0c32">
     <DataSourceViewID>Data Warehouse</DataSourceViewID>
   </Source>
   <Type>Time</Type>
-  <ErrorConfiguration dwd:design-time-name="614632b5-7169-4147-aa84-9412a431cc4b">
+  <ErrorConfiguration dwd:design-time-name="abc0feb0-d1c6-45aa-95a8-d53172fdb1b2">
     <KeyNotFound>IgnoreError</KeyNotFound>
     <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="2cb751d3-2f31-4d3a-ac02-101e820072f6">
+    <Attribute dwd:design-time-name="6981ed9f-2adf-42fa-89d1-6192bdacfda4">
       <ID>Thoi Gian Key</ID>
       <Name>Thoi Gian Key</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>372</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="27ad9c06-0d3c-4e39-953b-87526de0f48c">
+        <KeyColumn dwd:design-time-name="a3f7b3e5-5d8f-42f3-8380-b0dae2c99798">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2833c844-10ed-4c9b-926b-94dbef2a71cd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1155b98f-5bb1-436e-8582-fd4b10d25a5f">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>ThoiGianKey</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="c1dbca6e-7492-4b63-9c26-4c0a774207e6">
+        <AttributeRelationship dwd:design-time-name="7ecaea6d-4274-442a-88c7-130095f9f513">
           <AttributeID>Thang</AttributeID>
           <Name>Thang</Name>
         </AttributeRelationship>
@@ -134,35 +135,36 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="55dacd20-99c1-44a3-bfe1-033f88adeb1a">
+    <Attribute dwd:design-time-name="9531a709-6432-4a92-b855-f3a83e8e40aa">
       <ID>Quy</ID>
       <Name>Quy</Name>
       <Type>Quarters</Type>
+      <EstimatedCount>124</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="02aac89c-6b83-4df9-ac14-6a36452b3a6f">
+        <KeyColumn dwd:design-time-name="bd2ed99c-8fd8-4e86-a0c9-7da0f93034a1">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ef2d810-9bdf-44c5-a0c4-8e80a44eec1c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63d94abc-96fa-4b88-b8fc-08dd3822fcbb">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>Quy</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="5bfe83a4-ec26-479f-86df-63618051a645">
+        <KeyColumn dwd:design-time-name="0216ef82-a9f1-4207-8411-9ee597b0d433">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a577b0e-c8ec-46ca-92ec-b09890b361bb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7171c82c-a54c-44f6-86bd-2dc379eec990">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>Nam</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="4f6a99a4-d267-49ea-9baf-91aed1a651e6">
+      <NameColumn dwd:design-time-name="94cd3acb-bf70-4f9c-8e94-b209cbc297d1">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="b0d1fe5f-4a0e-43fc-8c2b-004766a6a50c">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="dcbac847-4d62-470a-b0ed-302b29d89f38">
           <TableID>dbo_Dim_ThoiGian</TableID>
           <ColumnID>Quy</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="051a3b13-921f-46e0-ac1e-7741aa3935f1">
+        <AttributeRelationship dwd:design-time-name="cfec63b7-6130-4b1d-953e-e8e7b9d8cb6c">
           <AttributeID>Nam</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Nam</Name>
@@ -171,35 +173,36 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="968d582b-e1b6-4f37-842b-d741528f88ad">
+    <Attribute dwd:design-time-name="c24fd255-dbb9-491e-ad47-f2167d112ff1">
       <ID>Thang</ID>
       <Name>Thang</Name>
       <Type>Months</Type>
+      <EstimatedCount>372</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1f590b9d-8bfa-4fb0-ac64-9c35b8407ff9">
+        <KeyColumn dwd:design-time-name="2f8f1cee-3698-46fe-b7c5-c5dccd8f45ed">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b795cc1-c40a-4d2e-893e-09df8284efd2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9aabeaa-7809-4fd9-9094-be3b865c9138">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>Thang</ColumnID>
           </Source>
         </KeyColumn>
-        <KeyColumn dwd:design-time-name="328003db-3773-48f1-92a4-80b91b14c0ca">
+        <KeyColumn dwd:design-time-name="b3703805-a258-4b40-bc17-214dff2bde31">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89775599-e251-4c0b-a336-73621c3d9140">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ec338af9-f100-4a39-b206-a8d5ab524409">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>Nam</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="2f61a932-a1d8-411a-b758-a03bf371ef47">
+      <NameColumn dwd:design-time-name="3b51a619-028e-4c22-8fd7-78fb68c17ded">
         <DataType>WChar</DataType>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="c723f578-b503-45db-a5ea-c04351a641c4">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="694deab2-b3e0-4b38-9db7-ff409a07d2fe">
           <TableID>dbo_Dim_ThoiGian</TableID>
           <ColumnID>Thang</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="e34ebeeb-ef86-4764-84f0-baf6a047b00d">
+        <AttributeRelationship dwd:design-time-name="d8b9a25f-0bee-417a-a6d0-c5f705d88d53">
           <AttributeID>Quy</AttributeID>
           <RelationshipType>Rigid</RelationshipType>
           <Name>Quy</Name>
@@ -208,14 +211,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7b1a5bbe-b67a-4b16-ace1-50e3c165ef90">
+    <Attribute dwd:design-time-name="da86899d-1523-4bb4-8e6f-e83a896821ed">
       <ID>Nam</ID>
       <Name>Nam</Name>
       <Type>Years</Type>
+      <EstimatedCount>31</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="69a6d5ea-2be9-4660-9dea-15187ba0acab">
+        <KeyColumn dwd:design-time-name="8e21ae9f-8f9f-4f23-98cd-095424881efb">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="56a3b6db-235c-442b-9233-64b8b96eeaf2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="20b8f588-48cd-4892-b6af-cf039e6f95fd">
             <TableID>dbo_Dim_ThoiGian</TableID>
             <ColumnID>Nam</ColumnID>
           </Source>
@@ -226,21 +230,21 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="2333a264-3b69-4d3b-9e18-fb293cfa1b1b">
+    <Hierarchy dwd:design-time-name="40745c0c-4be0-438a-a8cf-aad1966d0c27">
       <ID>Hierarchy</ID>
       <Name>Thoi Gian</Name>
       <Levels>
-        <Level dwd:design-time-name="8a469f95-9490-4472-af27-513248fdf6d7">
+        <Level dwd:design-time-name="6585305c-fb27-4fbc-9102-5c7f4e271f99">
           <ID>Nam</ID>
           <Name>Nam</Name>
           <SourceAttributeID>Nam</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="fcf8d36e-1f03-40ce-aafb-4b40a77e450b">
+        <Level dwd:design-time-name="0ca93729-e1cc-47e9-be58-588461ddd7c1">
           <ID>Quy</ID>
           <Name>Quy</Name>
           <SourceAttributeID>Quy</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="62ec325a-0a23-405e-ae79-8ad8e88f24ee">
+        <Level dwd:design-time-name="0d35bcfb-19d5-48fd-9c2e-369deb48c806">
           <ID>Thang</ID>
           <Name>Thang</Name>
           <SourceAttributeID>Thang</SourceAttributeID>

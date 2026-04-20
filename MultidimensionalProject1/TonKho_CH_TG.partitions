@@ -1,32 +1,98 @@
-<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="98e1114b-98b7-4d73-95ee-cfb174c69132" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abde53df-bf16-46b9-8a99-5b4b9f4cc299" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>TonKho_CH_TG</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Fact Ton Kho</ID>
       <Partitions>
-        <Partition dwd:design-time-name="28defb5b-0527-4e97-a4f4-f3a2f7a7cc4f">
+        <Partition dwd:design-time-name="a3f2a0d2-9e0c-40bd-9fa8-a1c7784bdc5a">
           <ID>Fact Ton Kho</ID>
           <Name>Fact Ton Kho</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d963b66e-c49d-4beb-870f-cf13ce2087d1">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5706bccd-c79b-4120-9b57-e195d3c1796b">
             <DataSourceViewID>Data Warehouse</DataSourceViewID>
             <TableID>dbo_Fact_TonKho</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ErrorConfiguration dwd:design-time-name="8a5538e3-0d65-4d7a-b5e1-5bcbf49eeffb">
+          <ErrorConfiguration dwd:design-time-name="dad06ef7-92c7-4b8e-8e22-2062abb422eb">
             <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
             <KeyNotFound>IgnoreError</KeyNotFound>
             <KeyDuplicate>ReportAndContinue</KeyDuplicate>
-            <NullKeyConvertedToUnknown>IgnoreError</NullKeyConvertedToUnknown>
             <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
           </ErrorConfiguration>
+          <EstimatedRows>370685</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2026-04-20T12:09:14.196667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2026-04-20T12:09:14.196667Z</LastSchemaUpdate>
+          <EstimatedRows>370685</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Thoi Gian</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Thoi Gian Key</AttributeID>
+                  <EstimatedCount>372</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Quy</AttributeID>
+                  <EstimatedCount>124</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Thang</AttributeID>
+                  <EstimatedCount>372</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Nam</AttributeID>
+                  <EstimatedCount>31</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Cua Hang</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Cua Hang Key</AttributeID>
+                  <EstimatedCount>3095</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>So Dien Thoai</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dia Diem Key</AttributeID>
+                  <EstimatedCount>636</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Dia Diem</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Dia Diem Key</AttributeID>
+                  <EstimatedCount>636</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Thanh Pho</AttributeID>
+                  <EstimatedCount>611</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bang</AttributeID>
+                  <EstimatedCount>23</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>

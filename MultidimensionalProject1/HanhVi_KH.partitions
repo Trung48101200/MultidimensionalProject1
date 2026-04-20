@@ -1,32 +1,83 @@
-<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9308c3c9-5d76-4eed-a95c-d9350b625c0e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9f8b5446-00ae-4661-a245-230cf067de28" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>HanhVi_KH</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Fact Hanh Vi</ID>
       <Partitions>
-        <Partition dwd:design-time-name="4c9f80b8-408c-4b9f-a24e-6ef27a4e0acf">
+        <Partition dwd:design-time-name="298d8046-0647-4919-aa0b-268d9bf5dd38">
           <ID>Fact Hanh Vi</ID>
           <Name>Fact Hanh Vi</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eabc81eb-fb78-4402-9f63-03f1b67e568f">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="f222e66e-3fd3-434e-9e76-5d03f736b6c2">
             <DataSourceViewID>Data Warehouse</DataSourceViewID>
             <TableID>dbo_Fact_HanhVi</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
           <ProcessingMode>Regular</ProcessingMode>
-          <ErrorConfiguration dwd:design-time-name="8a5538e3-0d65-4d7a-b5e1-5bcbf49eeffb">
+          <ErrorConfiguration dwd:design-time-name="ef80586f-a782-4695-9a04-5bb98a4de48f">
             <KeyErrorLimitAction>StopLogging</KeyErrorLimitAction>
             <KeyNotFound>IgnoreError</KeyNotFound>
             <KeyDuplicate>ReportAndContinue</KeyDuplicate>
-            <NullKeyConvertedToUnknown>IgnoreError</NullKeyConvertedToUnknown>
             <NullKeyNotAllowed>IgnoreError</NullKeyNotAllowed>
           </ErrorConfiguration>
+          <EstimatedRows>98666</EstimatedRows>
+          <AggregationDesignID>AggregationDesign</AggregationDesignID>
         </Partition>
       </Partitions>
+      <AggregationDesigns>
+        <AggregationDesign>
+          <ID>AggregationDesign</ID>
+          <Name>AggregationDesign</Name>
+          <CreatedTimestamp>2026-04-20T12:05:54.063333Z</CreatedTimestamp>
+          <LastSchemaUpdate>2026-04-20T12:05:54.063333Z</LastSchemaUpdate>
+          <EstimatedRows>98666</EstimatedRows>
+          <Dimensions>
+            <Dimension>
+              <CubeDimensionID>Dim Khach Hang</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Khach Hang Key</AttributeID>
+                  <EstimatedCount>77269</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ten KH</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Dia Diem</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Ngay Dat Dau Tien</AttributeID>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Loai Khach Hang</AttributeID>
+                  <EstimatedCount>3</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+            <Dimension>
+              <CubeDimensionID>Dim Dia Diem</CubeDimensionID>
+              <Attributes>
+                <Attribute>
+                  <AttributeID>Dia Diem Key</AttributeID>
+                  <EstimatedCount>636</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Thanh Pho</AttributeID>
+                  <EstimatedCount>611</EstimatedCount>
+                </Attribute>
+                <Attribute>
+                  <AttributeID>Bang</AttributeID>
+                  <EstimatedCount>23</EstimatedCount>
+                </Attribute>
+              </Attributes>
+            </Dimension>
+          </Dimensions>
+        </AggregationDesign>
+      </AggregationDesigns>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>
